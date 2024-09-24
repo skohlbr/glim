@@ -33,6 +33,8 @@ if(BUILD_WITH_VIEWER)
   find_package(Iridescence REQUIRED)
 endif()
 
+include_directories(/usr/include/spdlog)
+
 ###########
 ## Build ##
 ###########
